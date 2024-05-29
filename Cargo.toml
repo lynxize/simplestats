@@ -1,0 +1,9 @@
+[package]
+name = "simplestats"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+rocm_smi_lib = "0.2.2"
+sysinfo = "0.30.12"
